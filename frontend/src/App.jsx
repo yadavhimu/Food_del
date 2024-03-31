@@ -4,6 +4,7 @@ const App = () => {
   return (
     <div className='app'>
       <Navbar/>
+      
     </div>
   )
 }
