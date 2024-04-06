@@ -14,7 +14,8 @@ const ExploreMenu = () => {
                     <img src={item.menu_image} alt=""/>
                     <p>{item.menu_name}</p>
                 </div>    
-            )    
+            ) 
+               
         })}
       </div>
     </div>
