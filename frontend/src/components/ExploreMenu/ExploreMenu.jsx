@@ -15,9 +15,6 @@ const ExploreMenu = () => {
                     <p>{item.menu_name}</p>
                 </div>    
             ) 
-          
-            
-            
         })}
       </div>
     </div>
