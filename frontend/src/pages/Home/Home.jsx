@@ -11,7 +11,6 @@ const Home = () => {
       <ExploreMenu category={category} setCategory={setCategory}/>
     </div>
   )
-  
 }
 
 export default Home
