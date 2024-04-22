@@ -22,7 +22,7 @@ const LoginPopup = ({setShowLogin}) => {
         <button>{currState==='Sign Up'?'Create account':'login'}</button>
         <div className='login-popup-condition'>
           <input type='checkbox' required/>
-          <p>By continuing, iagree to the terms of use & privacy policy.</p>
+          <p>By continuing, I agree to the terms of use & privacy policy.</p>
         </div>
         {currState==='Login'
         ?<p>Create a new account?<span onClick={()=>setCurrState('Sign Up')}>Click here</span></p>
