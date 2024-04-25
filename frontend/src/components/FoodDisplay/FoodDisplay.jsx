@@ -17,7 +17,7 @@ const foodDisplay = ({category}) => {
             } 
         })}
       </div>
-    </div >
+    </div>
   )
 }
 
